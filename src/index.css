@@ -1,0 +1,16 @@
+.nav-link {
+  font-family: "arial";
+  font-size: large;
+}
+
+.navbar-nav {
+  background-color: #33acd4;
+}
+
+body {
+  background-color: #f3f2f0
+}
+
+.row {
+  padding: 20px;
+}
