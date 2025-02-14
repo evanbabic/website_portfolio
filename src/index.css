@@ -14,3 +14,30 @@ body {
 .row {
   padding: 20px;
 }
+
+.card-title {
+  font-size: 74px;
+  font-weight: bolder;
+}
+
+.btn {
+  border-radius: 30px
+}
+
+.jumbotronStyle {
+  background-image: url('./assets/water.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 90vh;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.card-image {
+  opacity: 50%;
+}

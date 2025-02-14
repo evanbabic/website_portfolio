@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <>
         <nav className="navbar-nav">
-            <div className="container-fluid p-3"> 
+            <div className="container-fluid"> 
                 <div className="row align-items-center">
                     <div className="col-md-8">
                         <a className="navbar-brand" href="#">
@@ -16,13 +16,13 @@ function Navbar() {
                         <div className="d-flex flex-row">
                             <ul className="nav font-large flex-fill justify-content-around">
                                 <li className="nav-item align-self-center">
-                                    <GiSeagull style={{color: 'white', width: '40px', height: '75px'}}/>
+                                    <GiSeagull style={{color: 'white', width: '40px', height: '50px'}}/>
                                 </li>
                                 <li className="nav-item">
-                                    <GiSeaTurtle style={{color: 'white', width: '40px', height: '75px'}}/>
+                                    <GiSeaTurtle style={{color: 'white', width: '40px', height: '50px'}}/>
                                 </li>
                                 <li className="nav-item">
-                                    <GiSeaCreature style={{color: 'white', width: '40px', height: '75px', transform: 'scaleX(-1)'}}/>
+                                    <GiSeaCreature style={{color: 'white', width: '40px', height: '50px', transform: 'scaleX(-1)'}}/>
                                 </li>
                             </ul>
                         </div> 
