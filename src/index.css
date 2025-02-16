@@ -3,7 +3,7 @@
   font-size: large;
 }
 
-.navbar-nav {
+.navbar {
   background-color: #33acd4;
 }
 
@@ -16,28 +16,29 @@ body {
 }
 
 .card-title {
-  font-size: 74px;
-  font-weight: bolder;
+  font-size: 48px;
+  margin: auto;
 }
 
 .btn {
   border-radius: 30px
 }
 
-.jumbotronStyle {
-  background-image: url('./assets/water.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  min-height: 90vh;
-  box-shadow: 0 10px 6px -6px #777;
-}
-
 p {
   font-size: 20px;
-  font-weight: bolder;
 }
 
-.card-image {
-  opacity: 50%;
+.icon {
+  transform: translateY(10px);
+}
+
+span {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.avatar {
+  width: 15em;
+  margin: auto;
+  padding: 20px;
 }
